@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Wilgner\\Documents\\Rural\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ABEF0422-8848-404B-9CD4-376454E23677}|Rural.Dominio\\Rural.Dominio.csproj|c:\\users\\wilgner\\documents\\rural\\rural.dominio\\models\\clube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABEF0422-8848-404B-9CD4-376454E23677}|Rural.Dominio\\Rural.Dominio.csproj|solutionrelative:rural.dominio\\models\\clube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42D0FC27-5B98-44EC-8A36-0A08560FD525}|Rural.Conexao\\Rural.Conexao.csproj|c:\\users\\wilgner\\documents\\rural\\rural.conexao\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42D0FC27-5B98-44EC-8A36-0A08560FD525}|Rural.Conexao\\Rural.Conexao.csproj|solutionrelative:rural.conexao\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA31C384-A0E4-44CC-A6D0-DEEA268D617E}|Rural.Model\\Rural.Model.csproj|c:\\users\\wilgner\\documents\\rural\\rural.model\\campeonato\\campeonato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA31C384-A0E4-44CC-A6D0-DEEA268D617E}|Rural.Model\\Rural.Model.csproj|solutionrelative:rural.model\\campeonato\\campeonato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Clube.cs",
-              "DocumentMoniker": "C:\\Users\\Wilgner\\Documents\\Rural\\Rural.Dominio\\Models\\Clube.cs",
-              "RelativeDocumentMoniker": "Rural.Dominio\\Models\\Clube.cs",
-              "ToolTip": "C:\\Users\\Wilgner\\Documents\\Rural\\Rural.Dominio\\Models\\Clube.cs",
-              "RelativeToolTip": "Rural.Dominio\\Models\\Clube.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Title": "Conexao.cs",
+              "DocumentMoniker": "C:\\Users\\Wilgner\\Documents\\Rural\\Rural.Conexao\\Conexao.cs",
+              "RelativeDocumentMoniker": "Rural.Conexao\\Conexao.cs",
+              "ToolTip": "C:\\Users\\Wilgner\\Documents\\Rural\\Rural.Conexao\\Conexao.cs",
+              "RelativeToolTip": "Rural.Conexao\\Conexao.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAcwCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T19:38:39.415Z",
+              "WhenOpened": "2025-07-14T19:56:41.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Campeonato.cs",
+              "DocumentMoniker": "C:\\Users\\Wilgner\\Documents\\Rural\\Rural.Model\\Campeonato\\Campeonato.cs",
+              "RelativeDocumentMoniker": "Rural.Model\\Campeonato\\Campeonato.cs",
+              "ToolTip": "C:\\Users\\Wilgner\\Documents\\Rural\\Rural.Model\\Campeonato\\Campeonato.cs",
+              "RelativeToolTip": "Rural.Model\\Campeonato\\Campeonato.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-14T19:13:46.081Z",
               "EditorCaption": ""
             }
           ]
