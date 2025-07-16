@@ -47,5 +47,29 @@ namespace Rural.Model.Campeonato
                 throw erro;
             }
         }
+
+        public List<Campeonato> PostLista(List<Campeonato> campeonato)
+        {
+            try
+            {
+                var listaInsert = campeonato.Where(a => string.IsNullOrEmpty(a.IdCampeonato)).ToList();
+                var listaUpdate = campeonato.Where(a => !string.IsNullOrEmpty(a.IdCampeonato)).ToList();
+
+                listaInsert.ForEach(acc =>
+                {
+                    if (string.IsNullOrEmpty(acc.IdCampeonato)) acc.IdCampeonato = Conexao.GeradorCodigo.GerarCodigoID();
+                });
+
+                /*var resposta = */
+                Conexao.Conexao.InsertListaZCore(listaInsert.ToArray());
+                Conexao.Conexao.AtualizarListaZCore(listaUpdate.ToArray(), "IdCampeonato");
+
+                return campeonato;
+            }
+            catch (Exception erro)
+            {
+                throw erro;
+            }
+        }
     }
 }

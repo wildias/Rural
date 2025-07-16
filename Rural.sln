@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rural.Model", "Rural.Model\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rural.Conexao", "Rural.Conexao\Rural.Conexao.csproj", "{42D0FC27-5B98-44EC-8A36-0A08560FD525}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rural", "Rural\Rural.csproj", "{F308C24E-CC11-424E-9852-E5A92BEB6F4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rural.Telas", "Rural.Telas\Rural.Telas.csproj", "{02335252-C9A5-445A-88F0-077F06B0200A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{42D0FC27-5B98-44EC-8A36-0A08560FD525}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42D0FC27-5B98-44EC-8A36-0A08560FD525}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42D0FC27-5B98-44EC-8A36-0A08560FD525}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F308C24E-CC11-424E-9852-E5A92BEB6F4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F308C24E-CC11-424E-9852-E5A92BEB6F4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F308C24E-CC11-424E-9852-E5A92BEB6F4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F308C24E-CC11-424E-9852-E5A92BEB6F4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02335252-C9A5-445A-88F0-077F06B0200A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02335252-C9A5-445A-88F0-077F06B0200A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02335252-C9A5-445A-88F0-077F06B0200A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02335252-C9A5-445A-88F0-077F06B0200A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

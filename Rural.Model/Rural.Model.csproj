@@ -5,13 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Clube\" />
-    <Folder Include="Estadio\" />
-    <Folder Include="InfoCampeonato\" />
-    <Folder Include="Jogador\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\Rural.Conexao\Rural.Conexao.csproj" />
     <ProjectReference Include="..\Rural.Dominio\Rural.Dominio.csproj" />
   </ItemGroup>
 

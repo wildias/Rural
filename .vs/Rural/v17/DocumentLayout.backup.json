@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Wilgner\\Documents\\Rural\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{42D0FC27-5B98-44EC-8A36-0A08560FD525}|Rural.Conexao\\Rural.Conexao.csproj|c:\\users\\wilgner\\documents\\rural\\rural.conexao\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42D0FC27-5B98-44EC-8A36-0A08560FD525}|Rural.Conexao\\Rural.Conexao.csproj|solutionrelative:rural.conexao\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02335252-C9A5-445A-88F0-077F06B0200A}|Rural.Telas\\Rural.Telas.csproj|C:\\Users\\Wilgner\\Documents\\Rural\\rural.telas\\cadastro\\campeonato\\formcadcampeonato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{02335252-C9A5-445A-88F0-077F06B0200A}|Rural.Telas\\Rural.Telas.csproj|solutionrelative:rural.telas\\cadastro\\campeonato\\formcadcampeonato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA31C384-A0E4-44CC-A6D0-DEEA268D617E}|Rural.Model\\Rural.Model.csproj|c:\\users\\wilgner\\documents\\rural\\rural.model\\campeonato\\campeonato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA31C384-A0E4-44CC-A6D0-DEEA268D617E}|Rural.Model\\Rural.Model.csproj|solutionrelative:rural.model\\campeonato\\campeonato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F308C24E-CC11-424E-9852-E5A92BEB6F4A}|Rural\\Rural.csproj|c:\\users\\wilgner\\documents\\rural\\rural\\formrural.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F308C24E-CC11-424E-9852-E5A92BEB6F4A}|Rural\\Rural.csproj|solutionrelative:rural\\formrural.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,33 +18,31 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Conexao.cs",
-              "DocumentMoniker": "C:\\Users\\Wilgner\\Documents\\Rural\\Rural.Conexao\\Conexao.cs",
-              "RelativeDocumentMoniker": "Rural.Conexao\\Conexao.cs",
-              "ToolTip": "C:\\Users\\Wilgner\\Documents\\Rural\\Rural.Conexao\\Conexao.cs",
-              "RelativeToolTip": "Rural.Conexao\\Conexao.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAcwCwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "FormRural.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Wilgner\\Documents\\Rural\\Rural\\FormRural.cs",
+              "RelativeDocumentMoniker": "Rural\\FormRural.cs",
+              "ToolTip": "C:\\Users\\Wilgner\\Documents\\Rural\\Rural\\FormRural.cs [Design]",
+              "RelativeToolTip": "Rural\\FormRural.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T19:56:41.647Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-16T17:21:26.622Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Campeonato.cs",
-              "DocumentMoniker": "C:\\Users\\Wilgner\\Documents\\Rural\\Rural.Model\\Campeonato\\Campeonato.cs",
-              "RelativeDocumentMoniker": "Rural.Model\\Campeonato\\Campeonato.cs",
-              "ToolTip": "C:\\Users\\Wilgner\\Documents\\Rural\\Rural.Model\\Campeonato\\Campeonato.cs",
-              "RelativeToolTip": "Rural.Model\\Campeonato\\Campeonato.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCQAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "FormCadCampeonato.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Wilgner\\Documents\\Rural\\Rural.Telas\\Cadastro\\Campeonato\\FormCadCampeonato.cs",
+              "RelativeDocumentMoniker": "Rural.Telas\\Cadastro\\Campeonato\\FormCadCampeonato.cs",
+              "ToolTip": "C:\\Users\\Wilgner\\Documents\\Rural\\Rural.Telas\\Cadastro\\Campeonato\\FormCadCampeonato.cs [Design]",
+              "RelativeToolTip": "Rural.Telas\\Cadastro\\Campeonato\\FormCadCampeonato.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-14T19:13:46.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-16T17:13:13.557Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
