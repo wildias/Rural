@@ -9,10 +9,14 @@ namespace Rural.Dominio.Data
     public partial class RuralContext : DbContext
     {
         public virtual DbSet<Campeonato> Campeonato { get; set; }
+        public virtual DbSet<Classificacao> Classificacao { get; set; }
         public virtual DbSet<Clube> Clube { get; set; }
         public virtual DbSet<Estadio> Estadio { get; set; }
         public virtual DbSet<InfoCampeonato> InfoCampeonato { get; set; }
         public virtual DbSet<Jogador> Jogador { get; set; }
+        public virtual DbSet<Jogos> Jogos { get; set; }
+        public virtual DbSet<Sumula> Sumula { get; set; }
+        public virtual DbSet<SumulaDetalhes> SumulaDetalhes { get; set; }
         public virtual DbSet<Usuario> Usuario { get; set; }
 
 
@@ -48,10 +52,14 @@ namespace Rural.Dominio.Data
             modelBuilder.HasAnnotation("Relational:Collation", "Latin1_General_CI_AS");
 
             modelBuilder.ApplyConfiguration(new Configurations.CampeonatoConfiguration());
+            modelBuilder.ApplyConfiguration(new Configurations.ClassificacaoConfiguration());
             modelBuilder.ApplyConfiguration(new Configurations.ClubeConfiguration());
             modelBuilder.ApplyConfiguration(new Configurations.EstadioConfiguration());
             modelBuilder.ApplyConfiguration(new Configurations.InfoCampeonatoConfiguration());
             modelBuilder.ApplyConfiguration(new Configurations.JogadorConfiguration());
+            modelBuilder.ApplyConfiguration(new Configurations.JogosConfiguration());
+            modelBuilder.ApplyConfiguration(new Configurations.SumulaConfiguration());
+            modelBuilder.ApplyConfiguration(new Configurations.SumulaDetalhesConfiguration());
             modelBuilder.ApplyConfiguration(new Configurations.UsuarioConfiguration());
             OnModelCreatingPartial(modelBuilder);
         }

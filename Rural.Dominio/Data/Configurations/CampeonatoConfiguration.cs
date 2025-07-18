@@ -15,13 +15,9 @@ namespace Rural.Dominio.Data.Configurations
 
             entity.HasIndex(e => e.Descricao);
 
-            entity.Property(e => e.DataInico).HasColumnType("datetime");
+            entity.Property(e => e.DataInicio).HasColumnType("datetime");
 
             entity.Property(e => e.DataFinal).HasColumnType("datetime");
-
-            entity.HasIndex(e => e.Campeao);
-
-            entity.HasIndex(e => e.ViceCampeao);
 
             entity.Property(e => e.IdCampeonato)
                 .HasMaxLength(10)
@@ -30,14 +26,6 @@ namespace Rural.Dominio.Data.Configurations
 
             entity.Property(e => e.Descricao)
                 .IsRequired()
-                .HasMaxLength(200)
-                .IsUnicode(false);
-
-            entity.Property(e => e.Campeao)
-                .HasMaxLength(200)
-                .IsUnicode(false);
-
-            entity.Property(e => e.ViceCampeao)
                 .HasMaxLength(200)
                 .IsUnicode(false);
 

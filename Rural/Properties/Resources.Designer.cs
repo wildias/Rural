@@ -63,6 +63,16 @@ namespace Rural.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap iconCadastro64x64branco {
+            get {
+                object obj = ResourceManager.GetObject("iconCadastro64x64branco", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap IconeCadastros {
             get {
                 object obj = ResourceManager.GetObject("IconeCadastros", resourceCulture);
@@ -76,6 +86,26 @@ namespace Rural.Properties {
         internal static System.Drawing.Bitmap IconeInicio {
             get {
                 object obj = ResourceManager.GetObject("IconeInicio", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconEmAndamento {
+            get {
+                object obj = ResourceManager.GetObject("iconEmAndamento", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconEmAndamento64x64branco {
+            get {
+                object obj = ResourceManager.GetObject("iconEmAndamento64x64branco", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +143,29 @@ namespace Rural.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap iconInicio64x64branco {
+            get {
+                object obj = ResourceManager.GetObject("iconInicio64x64branco", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap iconJogador64x64 {
             get {
                 object obj = ResourceManager.GetObject("iconJogador64x64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconRelatorio64x64branco {
+            get {
+                object obj = ResourceManager.GetObject("iconRelatorio64x64branco", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

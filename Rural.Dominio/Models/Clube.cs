@@ -9,8 +9,10 @@ namespace Rural.Dominio.Models
     {
         public Clube()
         {
+            Classificacao = new HashSet<Classificacao>();
             InfoCampeonato = new HashSet<InfoCampeonato>();
             Jogador = new HashSet<Jogador>();
+            SumulaDetalhes = new HashSet<SumulaDetalhes>();
         }
 
         public string IdClube {  get; set; }
@@ -27,9 +29,15 @@ namespace Rural.Dominio.Models
         public virtual Estadio IdEstadioNavigation { get; set; }
 
         [JsonIgnore]
+        public virtual ICollection<Classificacao> Classificacao { get; set; }
+
+        [JsonIgnore]
         public virtual ICollection<InfoCampeonato> InfoCampeonato { get; set; }
 
         [JsonIgnore]
         public virtual ICollection<Jogador> Jogador { get; set; }
+
+        [JsonIgnore]
+        public virtual ICollection<SumulaDetalhes> SumulaDetalhes { get; set; }
     }
 }

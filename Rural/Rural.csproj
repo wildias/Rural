@@ -1,31 +1,276 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
-
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2481A3F1-1D9C-4BA1-B636-4AA128C18ECC}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net6.0-windows</TargetFramework>
-    <Nullable>enable</Nullable>
-    <UseWindowsForms>true</UseWindowsForms>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Rural</RootNamespace>
+    <AssemblyName>Rural</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
   </PropertyGroup>
-
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
   <ItemGroup>
-    <Compile Update="Properties\Resources.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
+    <Reference Include="DevExpress.Data.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DevExpress\DevExpress.Data.v19.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Office.v19.2.Core, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DevExpress\DevExpress.Office.v19.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v19.2.Core, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DevExpress\DevExpress.Printing.v19.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v19.2.Core, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DevExpress\DevExpress.RichEdit.v19.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v19.2.Export, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DevExpress\DevExpress.RichEdit.v19.2.Export.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Sparkline.v19.2.Core, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DevExpress\DevExpress.Sparkline.v19.2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DevExpress\DevExpress.Utils.v19.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DevExpress\DevExpress.XtraBars.v19.2.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DevExpress\DevExpress.XtraEditors.v19.2.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
-
   <ItemGroup>
-    <EmbeddedResource Update="Properties\Resources.resx">
+    <Compile Include="FormRural.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRural.Designer.cs">
+      <DependentUpon>FormRural.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormRural.resx">
+      <DependentUpon>FormRural.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
   </ItemGroup>
-
   <ItemGroup>
-    <Folder Include="Resources\" />
+    <None Include="App.config" />
   </ItemGroup>
-
+  <ItemGroup>
+    <None Include="Resources\logoFutManagerBranca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconeCadastros.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconeRelatorio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconEscudo64x64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconEstadio64x64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconJogador64x64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconTrofeu64x64.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="pt-br\DevExpress.Charts.Designer.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.Dashboard.v19.2.Core.resources.dll" />
+    <Content Include="pt-br\DevExpress.Dashboard.v19.2.Web.resources.dll" />
+    <Content Include="pt-br\DevExpress.Dashboard.v19.2.Win.resources.dll" />
+    <Content Include="pt-br\DevExpress.Data.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.DataAccess.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.DataAccess.v19.2.UI.resources.dll" />
+    <Content Include="pt-br\DevExpress.Diagram.v19.2.Core.resources.dll" />
+    <Content Include="pt-br\DevExpress.Dialogs.v19.2.Core.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.AuditTrail.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.Chart.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.CloneObject.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.Dashboards.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.Dashboards.Web.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.Dashboards.Win.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.FileAttachment.Web.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.FileAttachment.Win.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.HtmlPropertyEditor.Win.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.Kpi.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.Maps.Mobile.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.Maps.Web.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.Mobile.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.Notifications.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.Notifications.Web.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.Objects.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.Office.Win.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.PivotChart.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.PivotChart.Web.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.PivotChart.Win.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.PivotGrid.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.PivotGrid.Web.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.Reports.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.Reports.Web.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.Reports.Win.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.ReportsV2.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.ReportsV2.Web.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.ReportsV2.Win.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.Scheduler.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.Scheduler.Web.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.Scheduler.Win.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.ScriptRecorder.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.ScriptRecorder.Win.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.Security.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.Security.Xpo.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.StateMachine.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.Validation.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.Validation.Win.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.ViewVariantsModule.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.Web.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.Win.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.Workflow.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.ExpressApp.Workflow.Win.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.Map.v19.2.Core.resources.dll" />
+    <Content Include="pt-br\DevExpress.Mvvm.v19.2.DataModel.resources.dll" />
+    <Content Include="pt-br\DevExpress.Office.v19.2.Core.resources.dll" />
+    <Content Include="pt-br\DevExpress.Pdf.v19.2.Core.resources.dll" />
+    <Content Include="pt-br\DevExpress.Persistent.Base.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.PivotGrid.v19.2.Core.resources.dll" />
+    <Content Include="pt-br\DevExpress.Printing.v19.2.Core.resources.dll" />
+    <Content Include="pt-br\DevExpress.ReportServer.v19.2.Localization.resources.dll" />
+    <Content Include="pt-br\DevExpress.RichEdit.v19.2.Core.resources.dll" />
+    <Content Include="pt-br\DevExpress.Snap.v19.2.Core.resources.dll" />
+    <Content Include="pt-br\DevExpress.Snap.v19.2.Extensions.resources.dll" />
+    <Content Include="pt-br\DevExpress.Snap.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.Sparkline.v19.2.Core.resources.dll" />
+    <Content Include="pt-br\DevExpress.Spreadsheet.v19.2.Core.resources.dll" />
+    <Content Include="pt-br\DevExpress.Utils.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.Utils.v19.2.UI.resources.dll" />
+    <Content Include="pt-br\DevExpress.Web.ASPxHtmlEditor.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.Web.ASPxRichEdit.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.Web.ASPxScheduler.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.Web.ASPxSpellChecker.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.Web.ASPxSpreadsheet.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.Web.ASPxTreeList.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.Web.Resources.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.Web.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.Xpf.Charts.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.Xpf.Controls.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.Xpf.Core.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.Xpf.Docking.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.Xpf.DocumentViewer.v19.2.Core.resources.dll" />
+    <Content Include="pt-br\DevExpress.Xpf.Gantt.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.Xpf.Gauges.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.Xpf.Grid.v19.2.Core.resources.dll" />
+    <Content Include="pt-br\DevExpress.Xpf.LayoutControl.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.Xpf.NavBar.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.Xpf.PdfViewer.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.Xpf.Printing.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.Xpf.PropertyGrid.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.Xpf.ReportDesigner.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.Xpf.Ribbon.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.Xpf.RichEdit.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.Xpf.Scheduler.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.Xpf.Scheduling.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.Xpf.SpellChecker.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.Xpf.Spreadsheet.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.Xpo.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.XtraBars.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.XtraCharts.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.XtraCharts.v19.2.Wizard.resources.dll" />
+    <Content Include="pt-br\DevExpress.XtraEditors.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.XtraGantt.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.XtraGauges.v19.2.Core.resources.dll" />
+    <Content Include="pt-br\DevExpress.XtraGauges.v19.2.Presets.resources.dll" />
+    <Content Include="pt-br\DevExpress.XtraGrid.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.XtraLayout.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.XtraNavBar.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.XtraPdfViewer.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.XtraPivotGrid.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.XtraPrinting.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.XtraReports.v19.2.Extensions.resources.dll" />
+    <Content Include="pt-br\DevExpress.XtraReports.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.XtraReports.v19.2.Web.resources.dll" />
+    <Content Include="pt-br\DevExpress.XtraRichEdit.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.XtraScheduler.v19.2.Core.resources.dll" />
+    <Content Include="pt-br\DevExpress.XtraScheduler.v19.2.Extensions.resources.dll" />
+    <Content Include="pt-br\DevExpress.XtraScheduler.v19.2.Reporting.resources.dll" />
+    <Content Include="pt-br\DevExpress.XtraScheduler.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.XtraSpellChecker.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.XtraSpreadsheet.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.XtraTreeList.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.XtraVerticalGrid.v19.2.resources.dll" />
+    <Content Include="pt-br\DevExpress.XtraWizard.v19.2.resources.dll" />
+    <None Include="Resources\iconEmAndamento.png" />
+    <None Include="Resources\IconeInicio.png" />
+    <None Include="Resources\iconInicio64x64branco.png" />
+    <None Include="Resources\iconEmAndamento64x64branco.png" />
+    <None Include="Resources\iconCadastro64x64branco.png" />
+    <None Include="Resources\iconRelatorio64x64branco.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -118,28 +118,43 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="iconCadastro64x64branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconCadastro64x64branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="IconeCadastros" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IconeCadastros.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="logoFutManagerBranca" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logoFutManagerBranca.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="IconeInicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IconeInicio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="iconEmAndamento" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconEmAndamento.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconEmAndamento64x64branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconEmAndamento64x64branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="IconeRelatorio" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IconeRelatorio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="iconEstadio64x64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iconEstadio64x64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="iconJogador64x64" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\iconJogador64x64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iconEscudo64x64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconEscudo64x64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="iconEstadio64x64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconEstadio64x64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconInicio64x64branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconInicio64x64branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconJogador64x64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconJogador64x64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconRelatorio64x64branco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iconRelatorio64x64branco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="iconTrofeu64x64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconTrofeu64x64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logoFutManagerBranca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logoFutManagerBranca.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

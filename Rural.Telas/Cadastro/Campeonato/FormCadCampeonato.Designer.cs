@@ -1,4 +1,7 @@
-﻿namespace Rural.Telas.Cadastro.Campeonato
+﻿using System.Drawing;
+using System.Windows.Forms;
+
+namespace Rural.Telas.Cadastro.Campeonato
 {
     partial class FormCadCampeonato
     {
@@ -28,300 +31,234 @@
         /// </summary>
         private void InitializeComponent()
         {
-            tableLayoutPanelPrincipal = new TableLayoutPanel();
-            panelBottom = new Panel();
-            btnSalvar = new Button();
-            button2 = new Button();
-            btnPesquisar = new Button();
-            btnSair = new Button();
-            panelTop = new Panel();
-            pictureBoxLogoTela = new PictureBox();
-            pictureBoxLogo = new PictureBox();
-            panelPrincipal = new Panel();
-            panelInformacoes = new Panel();
-            labelDescricao = new Label();
-            textBoxDescricao = new TextBox();
-            groupBoxInfo = new GroupBox();
-            textBoxDataInicio = new TextBox();
-            textBoxDataFinal = new TextBox();
-            labelDataInicio = new Label();
-            labelDataFinal = new Label();
-            BtnFinalizar = new Button();
-            btnIniciar = new Button();
-            tableLayoutPanelPrincipal.SuspendLayout();
-            panelBottom.SuspendLayout();
-            panelTop.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBoxLogoTela).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBoxLogo).BeginInit();
-            panelPrincipal.SuspendLayout();
-            panelInformacoes.SuspendLayout();
-            SuspendLayout();
+            this.tableLayoutPanelPrincipal = new System.Windows.Forms.TableLayoutPanel();
+            this.panelBottom = new System.Windows.Forms.Panel();
+            this.btnSalvar = new System.Windows.Forms.Button();
+            this.btnNovo = new System.Windows.Forms.Button();
+            this.btnPesquisar = new System.Windows.Forms.Button();
+            this.btnSair = new System.Windows.Forms.Button();
+            this.panelTop = new System.Windows.Forms.Panel();
+            this.pictureBoxLogoTela = new System.Windows.Forms.PictureBox();
+            this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
+            this.panelPrincipal = new System.Windows.Forms.Panel();
+            this.panelInformacoes = new System.Windows.Forms.Panel();
+            this.labelDataFinal = new System.Windows.Forms.Label();
+            this.labelDataInicio = new System.Windows.Forms.Label();
+            this.labelDescricao = new System.Windows.Forms.Label();
+            this.textBoxDescricao = new System.Windows.Forms.TextBox();
+            this.tableLayoutPanelPrincipal.SuspendLayout();
+            this.panelBottom.SuspendLayout();
+            this.panelTop.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogoTela)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
+            this.panelPrincipal.SuspendLayout();
+            this.panelInformacoes.SuspendLayout();
+            this.SuspendLayout();
             // 
             // tableLayoutPanelPrincipal
             // 
-            tableLayoutPanelPrincipal.ColumnCount = 1;
-            tableLayoutPanelPrincipal.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
-            tableLayoutPanelPrincipal.Controls.Add(panelBottom, 0, 2);
-            tableLayoutPanelPrincipal.Controls.Add(panelTop, 0, 0);
-            tableLayoutPanelPrincipal.Controls.Add(panelPrincipal, 0, 1);
-            tableLayoutPanelPrincipal.Dock = DockStyle.Fill;
-            tableLayoutPanelPrincipal.Location = new Point(0, 0);
-            tableLayoutPanelPrincipal.Name = "tableLayoutPanelPrincipal";
-            tableLayoutPanelPrincipal.RowCount = 3;
-            tableLayoutPanelPrincipal.RowStyles.Add(new RowStyle(SizeType.Absolute, 80F));
-            tableLayoutPanelPrincipal.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanelPrincipal.RowStyles.Add(new RowStyle(SizeType.Absolute, 80F));
-            tableLayoutPanelPrincipal.Size = new Size(702, 397);
-            tableLayoutPanelPrincipal.TabIndex = 0;
+            this.tableLayoutPanelPrincipal.ColumnCount = 1;
+            this.tableLayoutPanelPrincipal.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanelPrincipal.Controls.Add(this.panelBottom, 0, 2);
+            this.tableLayoutPanelPrincipal.Controls.Add(this.panelTop, 0, 0);
+            this.tableLayoutPanelPrincipal.Controls.Add(this.panelPrincipal, 0, 1);
+            this.tableLayoutPanelPrincipal.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanelPrincipal.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanelPrincipal.Name = "tableLayoutPanelPrincipal";
+            this.tableLayoutPanelPrincipal.RowCount = 3;
+            this.tableLayoutPanelPrincipal.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 69F));
+            this.tableLayoutPanelPrincipal.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanelPrincipal.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 69F));
+            this.tableLayoutPanelPrincipal.Size = new System.Drawing.Size(602, 291);
+            this.tableLayoutPanelPrincipal.TabIndex = 0;
             // 
             // panelBottom
             // 
-            panelBottom.Controls.Add(btnSalvar);
-            panelBottom.Controls.Add(button2);
-            panelBottom.Controls.Add(btnPesquisar);
-            panelBottom.Controls.Add(btnSair);
-            panelBottom.Dock = DockStyle.Fill;
-            panelBottom.Location = new Point(3, 320);
-            panelBottom.Name = "panelBottom";
-            panelBottom.Padding = new Padding(5);
-            panelBottom.Size = new Size(696, 74);
-            panelBottom.TabIndex = 1;
+            this.panelBottom.Controls.Add(this.btnSalvar);
+            this.panelBottom.Controls.Add(this.btnNovo);
+            this.panelBottom.Controls.Add(this.btnPesquisar);
+            this.panelBottom.Controls.Add(this.btnSair);
+            this.panelBottom.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelBottom.Location = new System.Drawing.Point(3, 225);
+            this.panelBottom.Name = "panelBottom";
+            this.panelBottom.Padding = new System.Windows.Forms.Padding(4);
+            this.panelBottom.Size = new System.Drawing.Size(596, 63);
+            this.panelBottom.TabIndex = 1;
             // 
             // btnSalvar
             // 
-            btnSalvar.BackColor = Color.FromArgb(34, 160, 133);
-            btnSalvar.FlatStyle = FlatStyle.Flat;
-            btnSalvar.Font = new Font("Segoe WP", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            btnSalvar.ForeColor = Color.White;
-            btnSalvar.Image = Properties.Resources.IconOk3;
-            btnSalvar.ImageAlign = ContentAlignment.MiddleLeft;
-            btnSalvar.Location = new Point(551, 11);
-            btnSalvar.Name = "btnSalvar";
-            btnSalvar.Size = new Size(137, 52);
-            btnSalvar.TabIndex = 3;
-            btnSalvar.Text = "Salvar [F5]";
-            btnSalvar.TextAlign = ContentAlignment.MiddleRight;
-            btnSalvar.UseVisualStyleBackColor = false;
+            this.btnSalvar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(160)))), ((int)(((byte)(133)))));
+            this.btnSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSalvar.Font = new System.Drawing.Font("Segoe WP", 11.25F);
+            this.btnSalvar.ForeColor = System.Drawing.Color.White;
+            this.btnSalvar.Image = global::Rural.Telas.Properties.Resources.IconOk3;
+            this.btnSalvar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSalvar.Location = new System.Drawing.Point(472, 10);
+            this.btnSalvar.Name = "btnSalvar";
+            this.btnSalvar.Size = new System.Drawing.Size(117, 45);
+            this.btnSalvar.TabIndex = 3;
+            this.btnSalvar.Text = "Salvar [F5]";
+            this.btnSalvar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnSalvar.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btnNovo
             // 
-            button2.BackColor = Color.FromArgb(41, 128, 185);
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Segoe WP", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            button2.ForeColor = Color.White;
-            button2.Image = Properties.Resources.IconNovo11;
-            button2.ImageAlign = ContentAlignment.MiddleLeft;
-            button2.Location = new Point(408, 11);
-            button2.Name = "button2";
-            button2.Size = new Size(137, 52);
-            button2.TabIndex = 2;
-            button2.Text = "Novo [F3]";
-            button2.TextAlign = ContentAlignment.MiddleRight;
-            button2.UseVisualStyleBackColor = false;
+            this.btnNovo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.btnNovo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNovo.Font = new System.Drawing.Font("Segoe WP", 11.25F);
+            this.btnNovo.ForeColor = System.Drawing.Color.White;
+            this.btnNovo.Image = global::Rural.Telas.Properties.Resources.IconNovo11;
+            this.btnNovo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnNovo.Location = new System.Drawing.Point(350, 10);
+            this.btnNovo.Name = "btnNovo";
+            this.btnNovo.Size = new System.Drawing.Size(117, 45);
+            this.btnNovo.TabIndex = 2;
+            this.btnNovo.Text = "Novo [F3]";
+            this.btnNovo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnNovo.UseVisualStyleBackColor = false;
             // 
             // btnPesquisar
             // 
-            btnPesquisar.BackColor = Color.FromArgb(41, 128, 185);
-            btnPesquisar.FlatStyle = FlatStyle.Flat;
-            btnPesquisar.Font = new Font("Segoe WP", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            btnPesquisar.ForeColor = Color.White;
-            btnPesquisar.Image = Properties.Resources.IconPesquisarBranco;
-            btnPesquisar.ImageAlign = ContentAlignment.MiddleLeft;
-            btnPesquisar.Location = new Point(265, 11);
-            btnPesquisar.Name = "btnPesquisar";
-            btnPesquisar.Size = new Size(137, 52);
-            btnPesquisar.TabIndex = 1;
-            btnPesquisar.Text = "Pesquisar [F2]";
-            btnPesquisar.TextAlign = ContentAlignment.MiddleRight;
-            btnPesquisar.UseVisualStyleBackColor = false;
+            this.btnPesquisar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(128)))), ((int)(((byte)(185)))));
+            this.btnPesquisar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPesquisar.Font = new System.Drawing.Font("Segoe WP", 11.25F);
+            this.btnPesquisar.ForeColor = System.Drawing.Color.White;
+            this.btnPesquisar.Image = global::Rural.Telas.Properties.Resources.IconPesquisarBranco;
+            this.btnPesquisar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPesquisar.Location = new System.Drawing.Point(214, 10);
+            this.btnPesquisar.Name = "btnPesquisar";
+            this.btnPesquisar.Size = new System.Drawing.Size(130, 45);
+            this.btnPesquisar.TabIndex = 1;
+            this.btnPesquisar.Text = "Pesquisar [F2]";
+            this.btnPesquisar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnPesquisar.UseVisualStyleBackColor = false;
             // 
             // btnSair
             // 
-            btnSair.BackColor = Color.FromArgb(192, 63, 66);
-            btnSair.FlatStyle = FlatStyle.Flat;
-            btnSair.Font = new Font("Segoe WP", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            btnSair.ForeColor = Color.White;
-            btnSair.Image = Properties.Resources.IconRemove11;
-            btnSair.ImageAlign = ContentAlignment.MiddleLeft;
-            btnSair.Location = new Point(9, 11);
-            btnSair.Name = "btnSair";
-            btnSair.Size = new Size(137, 52);
-            btnSair.TabIndex = 0;
-            btnSair.Text = "Sair [Esc]";
-            btnSair.TextAlign = ContentAlignment.MiddleRight;
-            btnSair.UseVisualStyleBackColor = false;
+            this.btnSair.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(63)))), ((int)(((byte)(66)))));
+            this.btnSair.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSair.Font = new System.Drawing.Font("Segoe WP", 11.25F);
+            this.btnSair.ForeColor = System.Drawing.Color.White;
+            this.btnSair.Image = global::Rural.Telas.Properties.Resources.IconRemove11;
+            this.btnSair.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSair.Location = new System.Drawing.Point(8, 10);
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(117, 45);
+            this.btnSair.TabIndex = 0;
+            this.btnSair.Text = "Sair [Esc]";
+            this.btnSair.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnSair.UseVisualStyleBackColor = false;
             // 
             // panelTop
             // 
-            panelTop.BackColor = Color.FromArgb(34, 160, 133);
-            panelTop.Controls.Add(pictureBoxLogoTela);
-            panelTop.Controls.Add(pictureBoxLogo);
-            panelTop.Dock = DockStyle.Fill;
-            panelTop.Location = new Point(3, 3);
-            panelTop.Name = "panelTop";
-            panelTop.Size = new Size(696, 74);
-            panelTop.TabIndex = 0;
+            this.panelTop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(160)))), ((int)(((byte)(133)))));
+            this.panelTop.Controls.Add(this.pictureBoxLogoTela);
+            this.panelTop.Controls.Add(this.pictureBoxLogo);
+            this.panelTop.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelTop.Location = new System.Drawing.Point(3, 3);
+            this.panelTop.Name = "panelTop";
+            this.panelTop.Size = new System.Drawing.Size(596, 63);
+            this.panelTop.TabIndex = 0;
             // 
             // pictureBoxLogoTela
             // 
-            pictureBoxLogoTela.BackgroundImage = Properties.Resources.iconTrofeu64x64Branco;
-            pictureBoxLogoTela.BackgroundImageLayout = ImageLayout.Center;
-            pictureBoxLogoTela.Location = new Point(2, 0);
-            pictureBoxLogoTela.Name = "pictureBoxLogoTela";
-            pictureBoxLogoTela.Size = new Size(100, 74);
-            pictureBoxLogoTela.TabIndex = 1;
-            pictureBoxLogoTela.TabStop = false;
+            this.pictureBoxLogoTela.BackgroundImage = global::Rural.Telas.Properties.Resources.iconTrofeu64x64Branco;
+            this.pictureBoxLogoTela.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBoxLogoTela.Location = new System.Drawing.Point(2, 0);
+            this.pictureBoxLogoTela.Name = "pictureBoxLogoTela";
+            this.pictureBoxLogoTela.Size = new System.Drawing.Size(86, 64);
+            this.pictureBoxLogoTela.TabIndex = 1;
+            this.pictureBoxLogoTela.TabStop = false;
             // 
             // pictureBoxLogo
             // 
-            pictureBoxLogo.BackgroundImage = Properties.Resources.logoFutManagerBranca;
-            pictureBoxLogo.BackgroundImageLayout = ImageLayout.Zoom;
-            pictureBoxLogo.Location = new Point(595, 0);
-            pictureBoxLogo.Name = "pictureBoxLogo";
-            pictureBoxLogo.Size = new Size(100, 74);
-            pictureBoxLogo.TabIndex = 0;
-            pictureBoxLogo.TabStop = false;
+            this.pictureBoxLogo.BackgroundImage = global::Rural.Telas.Properties.Resources.logoFutManagerBranca;
+            this.pictureBoxLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBoxLogo.Location = new System.Drawing.Point(510, 0);
+            this.pictureBoxLogo.Name = "pictureBoxLogo";
+            this.pictureBoxLogo.Size = new System.Drawing.Size(86, 64);
+            this.pictureBoxLogo.TabIndex = 0;
+            this.pictureBoxLogo.TabStop = false;
             // 
             // panelPrincipal
             // 
-            panelPrincipal.Controls.Add(panelInformacoes);
-            panelPrincipal.Controls.Add(groupBoxInfo);
-            panelPrincipal.Dock = DockStyle.Fill;
-            panelPrincipal.Location = new Point(3, 83);
-            panelPrincipal.Name = "panelPrincipal";
-            panelPrincipal.Size = new Size(696, 231);
-            panelPrincipal.TabIndex = 2;
+            this.panelPrincipal.Controls.Add(this.panelInformacoes);
+            this.panelPrincipal.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelPrincipal.Location = new System.Drawing.Point(3, 72);
+            this.panelPrincipal.Name = "panelPrincipal";
+            this.panelPrincipal.Size = new System.Drawing.Size(596, 147);
+            this.panelPrincipal.TabIndex = 2;
             // 
             // panelInformacoes
             // 
-            panelInformacoes.Controls.Add(btnIniciar);
-            panelInformacoes.Controls.Add(BtnFinalizar);
-            panelInformacoes.Controls.Add(labelDataFinal);
-            panelInformacoes.Controls.Add(labelDataInicio);
-            panelInformacoes.Controls.Add(textBoxDataFinal);
-            panelInformacoes.Controls.Add(textBoxDataInicio);
-            panelInformacoes.Controls.Add(labelDescricao);
-            panelInformacoes.Controls.Add(textBoxDescricao);
-            panelInformacoes.Location = new Point(9, 6);
-            panelInformacoes.Name = "panelInformacoes";
-            panelInformacoes.Size = new Size(678, 125);
-            panelInformacoes.TabIndex = 2;
-            // 
-            // labelDescricao
-            // 
-            labelDescricao.AutoSize = true;
-            labelDescricao.Font = new Font("Segoe WP", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            labelDescricao.Location = new Point(7, 7);
-            labelDescricao.Name = "labelDescricao";
-            labelDescricao.Size = new Size(123, 17);
-            labelDescricao.TabIndex = 1;
-            labelDescricao.Text = "Nome Campeonato";
-            // 
-            // textBoxDescricao
-            // 
-            textBoxDescricao.Font = new Font("Segoe WP", 9.25F, FontStyle.Regular, GraphicsUnit.Point);
-            textBoxDescricao.Location = new Point(7, 27);
-            textBoxDescricao.Name = "textBoxDescricao";
-            textBoxDescricao.Size = new Size(649, 24);
-            textBoxDescricao.TabIndex = 0;
-            // 
-            // groupBoxInfo
-            // 
-            groupBoxInfo.Location = new Point(9, 137);
-            groupBoxInfo.Name = "groupBoxInfo";
-            groupBoxInfo.Size = new Size(678, 89);
-            groupBoxInfo.TabIndex = 1;
-            groupBoxInfo.TabStop = false;
-            groupBoxInfo.Text = "Informações Adicionais";
-            // 
-            // textBoxDataInicio
-            // 
-            textBoxDataInicio.Font = new Font("Segoe WP", 9.25F, FontStyle.Regular, GraphicsUnit.Point);
-            textBoxDataInicio.Location = new Point(7, 89);
-            textBoxDataInicio.Name = "textBoxDataInicio";
-            textBoxDataInicio.Size = new Size(154, 24);
-            textBoxDataInicio.TabIndex = 2;
-            // 
-            // textBoxDataFinal
-            // 
-            textBoxDataFinal.Font = new Font("Segoe WP", 9.25F, FontStyle.Regular, GraphicsUnit.Point);
-            textBoxDataFinal.Location = new Point(178, 89);
-            textBoxDataFinal.Name = "textBoxDataFinal";
-            textBoxDataFinal.Size = new Size(154, 24);
-            textBoxDataFinal.TabIndex = 3;
-            // 
-            // labelDataInicio
-            // 
-            labelDataInicio.AutoSize = true;
-            labelDataInicio.Font = new Font("Segoe WP", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            labelDataInicio.Location = new Point(7, 69);
-            labelDataInicio.Name = "labelDataInicio";
-            labelDataInicio.Size = new Size(71, 17);
-            labelDataInicio.TabIndex = 4;
-            labelDataInicio.Text = "Data Inicial";
+            this.panelInformacoes.Controls.Add(this.labelDataFinal);
+            this.panelInformacoes.Controls.Add(this.labelDataInicio);
+            this.panelInformacoes.Controls.Add(this.labelDescricao);
+            this.panelInformacoes.Controls.Add(this.textBoxDescricao);
+            this.panelInformacoes.Location = new System.Drawing.Point(8, 5);
+            this.panelInformacoes.Name = "panelInformacoes";
+            this.panelInformacoes.Size = new System.Drawing.Size(581, 126);
+            this.panelInformacoes.TabIndex = 2;
             // 
             // labelDataFinal
             // 
-            labelDataFinal.AutoSize = true;
-            labelDataFinal.Font = new Font("Segoe WP", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            labelDataFinal.Location = new Point(178, 69);
-            labelDataFinal.Name = "labelDataFinal";
-            labelDataFinal.Size = new Size(65, 17);
-            labelDataFinal.TabIndex = 5;
-            labelDataFinal.Text = "Data Final";
+            this.labelDataFinal.AutoSize = true;
+            this.labelDataFinal.Font = new System.Drawing.Font("Segoe WP", 9.75F);
+            this.labelDataFinal.Location = new System.Drawing.Point(153, 60);
+            this.labelDataFinal.Name = "labelDataFinal";
+            this.labelDataFinal.Size = new System.Drawing.Size(65, 17);
+            this.labelDataFinal.TabIndex = 5;
+            this.labelDataFinal.Text = "Data Final";
             // 
-            // BtnFinalizar
+            // labelDataInicio
             // 
-            BtnFinalizar.BackColor = Color.FromArgb(34, 160, 133);
-            BtnFinalizar.FlatStyle = FlatStyle.Flat;
-            BtnFinalizar.Font = new Font("Segoe WP", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            BtnFinalizar.ForeColor = Color.White;
-            BtnFinalizar.Image = Properties.Resources.IconOk3;
-            BtnFinalizar.ImageAlign = ContentAlignment.MiddleLeft;
-            BtnFinalizar.Location = new Point(519, 82);
-            BtnFinalizar.Name = "BtnFinalizar";
-            BtnFinalizar.Size = new Size(137, 34);
-            BtnFinalizar.TabIndex = 6;
-            BtnFinalizar.Text = "Finalizar";
-            BtnFinalizar.TextAlign = ContentAlignment.MiddleRight;
-            BtnFinalizar.UseVisualStyleBackColor = false;
+            this.labelDataInicio.AutoSize = true;
+            this.labelDataInicio.Font = new System.Drawing.Font("Segoe WP", 9.75F);
+            this.labelDataInicio.Location = new System.Drawing.Point(6, 60);
+            this.labelDataInicio.Name = "labelDataInicio";
+            this.labelDataInicio.Size = new System.Drawing.Size(71, 17);
+            this.labelDataInicio.TabIndex = 4;
+            this.labelDataInicio.Text = "Data Inicial";
             // 
-            // btnIniciar
+            // labelDescricao
             // 
-            btnIniciar.BackColor = Color.FromArgb(41, 128, 185);
-            btnIniciar.FlatStyle = FlatStyle.Flat;
-            btnIniciar.Font = new Font("Segoe WP", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            btnIniciar.ForeColor = Color.White;
-            btnIniciar.Image = Properties.Resources.IconOk3;
-            btnIniciar.ImageAlign = ContentAlignment.MiddleLeft;
-            btnIniciar.Location = new Point(361, 82);
-            btnIniciar.Name = "btnIniciar";
-            btnIniciar.Size = new Size(137, 34);
-            btnIniciar.TabIndex = 7;
-            btnIniciar.Text = "Iniciar";
-            btnIniciar.TextAlign = ContentAlignment.MiddleRight;
-            btnIniciar.UseVisualStyleBackColor = false;
+            this.labelDescricao.AutoSize = true;
+            this.labelDescricao.Font = new System.Drawing.Font("Segoe WP", 9.75F);
+            this.labelDescricao.Location = new System.Drawing.Point(6, 6);
+            this.labelDescricao.Name = "labelDescricao";
+            this.labelDescricao.Size = new System.Drawing.Size(123, 17);
+            this.labelDescricao.TabIndex = 1;
+            this.labelDescricao.Text = "Nome Campeonato";
+            // 
+            // textBoxDescricao
+            // 
+            this.textBoxDescricao.Font = new System.Drawing.Font("Segoe WP", 9.25F);
+            this.textBoxDescricao.Location = new System.Drawing.Point(6, 23);
+            this.textBoxDescricao.Name = "textBoxDescricao";
+            this.textBoxDescricao.Size = new System.Drawing.Size(557, 24);
+            this.textBoxDescricao.TabIndex = 0;
             // 
             // FormCadCampeonato
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(702, 397);
-            Controls.Add(tableLayoutPanelPrincipal);
-            FormBorderStyle = FormBorderStyle.FixedSingle;
-            KeyPreview = true;
-            Name = "FormCadCampeonato";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "Cadastro de Campeonato";
-            tableLayoutPanelPrincipal.ResumeLayout(false);
-            panelBottom.ResumeLayout(false);
-            panelTop.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)pictureBoxLogoTela).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBoxLogo).EndInit();
-            panelPrincipal.ResumeLayout(false);
-            panelInformacoes.ResumeLayout(false);
-            panelInformacoes.PerformLayout();
-            ResumeLayout(false);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(602, 291);
+            this.Controls.Add(this.tableLayoutPanelPrincipal);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.KeyPreview = true;
+            this.Name = "FormCadCampeonato";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Cadastro de Campeonato";
+            this.tableLayoutPanelPrincipal.ResumeLayout(false);
+            this.panelBottom.ResumeLayout(false);
+            this.panelTop.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogoTela)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
+            this.panelPrincipal.ResumeLayout(false);
+            this.panelInformacoes.ResumeLayout(false);
+            this.panelInformacoes.PerformLayout();
+            this.ResumeLayout(false);
+
         }
 
         #endregion
@@ -332,19 +269,14 @@
         private Panel panelPrincipal;
         private Button btnSair;
         private Button btnSalvar;
-        private Button button2;
+        private Button btnNovo;
         private Button btnPesquisar;
         private PictureBox pictureBoxLogoTela;
         private PictureBox pictureBoxLogo;
-        private GroupBox groupBoxInfo;
         private Panel panelInformacoes;
         private Label labelDescricao;
         private TextBox textBoxDescricao;
         private Label labelDataFinal;
         private Label labelDataInicio;
-        private TextBox textBoxDataFinal;
-        private TextBox textBoxDataInicio;
-        private Button BtnFinalizar;
-        private Button btnIniciar;
     }
 }

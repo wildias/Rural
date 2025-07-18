@@ -71,5 +71,21 @@ namespace Rural.Model.Campeonato
                 throw erro;
             }
         }
+
+        public List<Campeonato> GetLista()
+        {
+            try
+            {
+                var sql = "SELECT * FROM Campeonato";
+
+                var resp = Conexao.Conexao.Query<Campeonato>(sql).ToList();
+                return resp;
+            }
+            catch (Exception erro)
+            {
+
+                throw erro;
+            }
+        }
     }
 }

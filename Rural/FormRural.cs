@@ -1,3 +1,15 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
+using System.Linq;
+using System.Net;
+using System.Net.NetworkInformation;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+
 namespace Rural
 {
     public partial class FormRural : Form
@@ -5,14 +17,6 @@ namespace Rural
         public FormRural()
         {
             InitializeComponent();
-        }
-
-        private void btnCadastro_Click(object sender, EventArgs e)
-        {
-            btnCampeonato.Visible = true;
-            btnClube.Visible = true;
-            btnJogador.Visible = true;
-            btnEstadio.Visible = true;
         }
     }
 }

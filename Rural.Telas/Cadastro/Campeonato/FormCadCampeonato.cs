@@ -16,5 +16,30 @@ namespace Rural.Telas.Cadastro.Campeonato
         {
             InitializeComponent();
         }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void btnPesquisar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSalvar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnIniciar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnFinalizar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
