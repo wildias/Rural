@@ -40,6 +40,7 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\DevExpress\DevExpress.BonusSkins.v19.2.dll</HintPath>
     </Reference>
+    <Reference Include="DevExpress.Data.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Printing.v19.2.Core, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\DevExpress\DevExpress.Printing.v19.2.Core.dll</HintPath>
@@ -171,6 +172,10 @@
     <ProjectReference Include="..\Rural.Dominio\Rural.Dominio.csproj">
       <Project>{abef0422-8848-404b-9cd4-376454e23677}</Project>
       <Name>Rural.Dominio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Rural.ErroProvider\Rural.ErroProvider.csproj">
+      <Project>{0D3F6CCC-EE0E-43E6-9F9C-252690C7A833}</Project>
+      <Name>Rural.ErroProvider</Name>
     </ProjectReference>
     <ProjectReference Include="..\Rural.Estilo\Rural.Estilo.csproj">
       <Project>{24de4d7f-1cb4-4210-ab51-807e38bd8a3b}</Project>

@@ -74,7 +74,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Extendidos\ExDecimal.cs" />
+    <Compile Include="Extendidos\ExEnum.cs" />
+    <Compile Include="Extendidos\ExForm.cs" />
     <Compile Include="Extendidos\ExGrid.cs" />
+    <Compile Include="Extendidos\ExString.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

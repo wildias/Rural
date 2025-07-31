@@ -20,7 +20,7 @@ namespace Rural.Dominio.Data
         public virtual DbSet<Usuario> Usuario { get; set; }
 
 
-        public string _stringConexao = "Data Source=.\\SQLEXPRESS;Initial Catalog=RURAL;Integrated Security=True;Trust Server Certificate=True;Command Timeout=300";
+        public string _stringConexao = "Data Source=.\\SQLFARMA;Initial Catalog=RURAL;Integrated Security=True;";
 
         public RuralContext(DbContextOptions<RuralContext> options) : base(options)
         {

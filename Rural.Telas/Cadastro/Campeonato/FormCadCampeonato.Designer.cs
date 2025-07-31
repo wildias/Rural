@@ -42,10 +42,16 @@ namespace Rural.Telas.Cadastro.Campeonato
             this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
             this.panelPrincipal = new System.Windows.Forms.Panel();
             this.panelInformacoes = new System.Windows.Forms.Panel();
+            this.comboBoxModelo = new System.Windows.Forms.ComboBox();
+            this.labelModeloCamp = new System.Windows.Forms.Label();
+            this.dateEditFinal = new DevExpress.XtraEditors.DateEdit();
+            this.dateEditInicio = new DevExpress.XtraEditors.DateEdit();
             this.labelDataFinal = new System.Windows.Forms.Label();
             this.labelDataInicio = new System.Windows.Forms.Label();
             this.labelDescricao = new System.Windows.Forms.Label();
             this.textBoxDescricao = new System.Windows.Forms.TextBox();
+            this.labelDataCadastro = new System.Windows.Forms.Label();
+            this.dateEditCadastro = new DevExpress.XtraEditors.DateEdit();
             this.tableLayoutPanelPrincipal.SuspendLayout();
             this.panelBottom.SuspendLayout();
             this.panelTop.SuspendLayout();
@@ -53,6 +59,12 @@ namespace Rural.Telas.Cadastro.Campeonato
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
             this.panelPrincipal.SuspendLayout();
             this.panelInformacoes.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEditFinal.Properties.CalendarTimeProperties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEditFinal.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEditInicio.Properties.CalendarTimeProperties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEditInicio.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEditCadastro.Properties.CalendarTimeProperties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEditCadastro.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanelPrincipal
@@ -100,6 +112,7 @@ namespace Rural.Telas.Cadastro.Campeonato
             this.btnSalvar.Text = "Salvar [F5]";
             this.btnSalvar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnSalvar.UseVisualStyleBackColor = false;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
             // btnNovo
             // 
@@ -116,6 +129,7 @@ namespace Rural.Telas.Cadastro.Campeonato
             this.btnNovo.Text = "Novo [F3]";
             this.btnNovo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnNovo.UseVisualStyleBackColor = false;
+            this.btnNovo.Click += new System.EventHandler(this.btnNovo_Click);
             // 
             // btnPesquisar
             // 
@@ -132,6 +146,7 @@ namespace Rural.Telas.Cadastro.Campeonato
             this.btnPesquisar.Text = "Pesquisar [F2]";
             this.btnPesquisar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnPesquisar.UseVisualStyleBackColor = false;
+            this.btnPesquisar.Click += new System.EventHandler(this.btnPesquisar_Click);
             // 
             // btnSair
             // 
@@ -148,6 +163,7 @@ namespace Rural.Telas.Cadastro.Campeonato
             this.btnSair.Text = "Sair [Esc]";
             this.btnSair.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnSair.UseVisualStyleBackColor = false;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // panelTop
             // 
@@ -191,6 +207,12 @@ namespace Rural.Telas.Cadastro.Campeonato
             // 
             // panelInformacoes
             // 
+            this.panelInformacoes.Controls.Add(this.dateEditCadastro);
+            this.panelInformacoes.Controls.Add(this.labelDataCadastro);
+            this.panelInformacoes.Controls.Add(this.comboBoxModelo);
+            this.panelInformacoes.Controls.Add(this.labelModeloCamp);
+            this.panelInformacoes.Controls.Add(this.dateEditFinal);
+            this.panelInformacoes.Controls.Add(this.dateEditInicio);
             this.panelInformacoes.Controls.Add(this.labelDataFinal);
             this.panelInformacoes.Controls.Add(this.labelDataInicio);
             this.panelInformacoes.Controls.Add(this.labelDescricao);
@@ -199,6 +221,57 @@ namespace Rural.Telas.Cadastro.Campeonato
             this.panelInformacoes.Name = "panelInformacoes";
             this.panelInformacoes.Size = new System.Drawing.Size(581, 126);
             this.panelInformacoes.TabIndex = 2;
+            // 
+            // comboBoxModelo
+            // 
+            this.comboBoxModelo.Font = new System.Drawing.Font("Segoe WP", 9.25F);
+            this.comboBoxModelo.FormattingEnabled = true;
+            this.comboBoxModelo.Location = new System.Drawing.Point(432, 88);
+            this.comboBoxModelo.Name = "comboBoxModelo";
+            this.comboBoxModelo.Size = new System.Drawing.Size(130, 24);
+            this.comboBoxModelo.TabIndex = 26;
+            // 
+            // labelModeloCamp
+            // 
+            this.labelModeloCamp.AutoSize = true;
+            this.labelModeloCamp.Font = new System.Drawing.Font("Segoe WP", 9.75F);
+            this.labelModeloCamp.Location = new System.Drawing.Point(429, 60);
+            this.labelModeloCamp.Name = "labelModeloCamp";
+            this.labelModeloCamp.Size = new System.Drawing.Size(133, 17);
+            this.labelModeloCamp.TabIndex = 25;
+            this.labelModeloCamp.Text = "Modelo Campeonato";
+            // 
+            // dateEditFinal
+            // 
+            this.dateEditFinal.EditValue = null;
+            this.dateEditFinal.Enabled = false;
+            this.dateEditFinal.Location = new System.Drawing.Point(156, 90);
+            this.dateEditFinal.Name = "dateEditFinal";
+            this.dateEditFinal.Properties.Appearance.Font = new System.Drawing.Font("Segoe WP", 9.25F);
+            this.dateEditFinal.Properties.Appearance.Options.UseFont = true;
+            this.dateEditFinal.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.dateEditFinal.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.dateEditFinal.Properties.Mask.EditMask = "dd/MM/yyyy";
+            this.dateEditFinal.Size = new System.Drawing.Size(96, 22);
+            this.dateEditFinal.TabIndex = 24;
+            // 
+            // dateEditInicio
+            // 
+            this.dateEditInicio.EditValue = null;
+            this.dateEditInicio.Enabled = false;
+            this.dateEditInicio.Location = new System.Drawing.Point(6, 90);
+            this.dateEditInicio.Name = "dateEditInicio";
+            this.dateEditInicio.Properties.Appearance.Font = new System.Drawing.Font("Segoe WP", 9.25F);
+            this.dateEditInicio.Properties.Appearance.Options.UseFont = true;
+            this.dateEditInicio.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.dateEditInicio.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.dateEditInicio.Properties.Mask.EditMask = "dd/MM/yyyy";
+            this.dateEditInicio.Size = new System.Drawing.Size(96, 22);
+            this.dateEditInicio.TabIndex = 23;
             // 
             // labelDataFinal
             // 
@@ -224,7 +297,7 @@ namespace Rural.Telas.Cadastro.Campeonato
             // 
             this.labelDescricao.AutoSize = true;
             this.labelDescricao.Font = new System.Drawing.Font("Segoe WP", 9.75F);
-            this.labelDescricao.Location = new System.Drawing.Point(6, 6);
+            this.labelDescricao.Location = new System.Drawing.Point(6, 4);
             this.labelDescricao.Name = "labelDescricao";
             this.labelDescricao.Size = new System.Drawing.Size(123, 17);
             this.labelDescricao.TabIndex = 1;
@@ -233,10 +306,36 @@ namespace Rural.Telas.Cadastro.Campeonato
             // textBoxDescricao
             // 
             this.textBoxDescricao.Font = new System.Drawing.Font("Segoe WP", 9.25F);
-            this.textBoxDescricao.Location = new System.Drawing.Point(6, 23);
+            this.textBoxDescricao.Location = new System.Drawing.Point(6, 25);
             this.textBoxDescricao.Name = "textBoxDescricao";
-            this.textBoxDescricao.Size = new System.Drawing.Size(557, 24);
+            this.textBoxDescricao.Size = new System.Drawing.Size(428, 24);
             this.textBoxDescricao.TabIndex = 0;
+            // 
+            // labelDataCadastro
+            // 
+            this.labelDataCadastro.AutoSize = true;
+            this.labelDataCadastro.Font = new System.Drawing.Font("Segoe WP", 9.75F);
+            this.labelDataCadastro.Location = new System.Drawing.Point(465, 3);
+            this.labelDataCadastro.Name = "labelDataCadastro";
+            this.labelDataCadastro.Size = new System.Drawing.Size(92, 17);
+            this.labelDataCadastro.TabIndex = 27;
+            this.labelDataCadastro.Text = "Data Cadastro";
+            // 
+            // dateEditCadastro
+            // 
+            this.dateEditCadastro.EditValue = null;
+            this.dateEditCadastro.Enabled = false;
+            this.dateEditCadastro.Location = new System.Drawing.Point(466, 24);
+            this.dateEditCadastro.Name = "dateEditCadastro";
+            this.dateEditCadastro.Properties.Appearance.Font = new System.Drawing.Font("Segoe WP", 9.25F);
+            this.dateEditCadastro.Properties.Appearance.Options.UseFont = true;
+            this.dateEditCadastro.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.dateEditCadastro.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.dateEditCadastro.Properties.Mask.EditMask = "dd/MM/yyyy";
+            this.dateEditCadastro.Size = new System.Drawing.Size(96, 22);
+            this.dateEditCadastro.TabIndex = 28;
             // 
             // FormCadCampeonato
             // 
@@ -249,6 +348,8 @@ namespace Rural.Telas.Cadastro.Campeonato
             this.Name = "FormCadCampeonato";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro de Campeonato";
+            this.Load += new System.EventHandler(this.FormCadCampeonato_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FormCadCampeonato_KeyDown);
             this.tableLayoutPanelPrincipal.ResumeLayout(false);
             this.panelBottom.ResumeLayout(false);
             this.panelTop.ResumeLayout(false);
@@ -257,6 +358,12 @@ namespace Rural.Telas.Cadastro.Campeonato
             this.panelPrincipal.ResumeLayout(false);
             this.panelInformacoes.ResumeLayout(false);
             this.panelInformacoes.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEditFinal.Properties.CalendarTimeProperties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEditFinal.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEditInicio.Properties.CalendarTimeProperties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEditInicio.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEditCadastro.Properties.CalendarTimeProperties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEditCadastro.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -278,5 +385,11 @@ namespace Rural.Telas.Cadastro.Campeonato
         private TextBox textBoxDescricao;
         private Label labelDataFinal;
         private Label labelDataInicio;
+        private DevExpress.XtraEditors.DateEdit dateEditFinal;
+        private DevExpress.XtraEditors.DateEdit dateEditInicio;
+        private Label labelModeloCamp;
+        private ComboBox comboBoxModelo;
+        private DevExpress.XtraEditors.DateEdit dateEditCadastro;
+        private Label labelDataCadastro;
     }
 }

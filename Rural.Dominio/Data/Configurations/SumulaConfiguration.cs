@@ -17,8 +17,6 @@ namespace Rural.Dominio.Data.Configurations
 
             entity.HasIndex(e => e.IdJogos);
 
-            entity.HasIndex(e => e.Observacao);
-
             entity.Property(e => e.Data).HasColumnType("datetime");
 
             entity.Property(e => e.IdSumula)

@@ -80,6 +80,12 @@ namespace Rural.Telas.Cadastro.Campeonato
                     gridViewCampeonato.Columns["DataFinal"].OptionsColumn.AllowEdit = false;
                     gridViewCampeonato.Columns["DataFinal"].MinWidth = 70;
 
+                    gridViewCampeonato.Columns.AddField("Tipo");
+                    gridViewCampeonato.Columns["Tipo"].VisibleIndex = 3;
+                    gridViewCampeonato.Columns["Tipo"].Caption = "Modelo";
+                    gridViewCampeonato.Columns["Tipo"].OptionsColumn.AllowEdit = false;
+                    gridViewCampeonato.Columns["Tipo"].MinWidth = 70;
+
                     gridViewCampeonato.FontePadrao("Segoe WP", 10);
                     gridViewCampeonato.BestFitColumns();
 
@@ -124,12 +130,12 @@ namespace Rural.Telas.Cadastro.Campeonato
                         {
                             IdCampeonato = campeonatoSelecionado.IdCampeonato,
                             Descricao = campeonatoSelecionado.Descricao,
+                            DataCadastro = campeonatoSelecionado.DataCadastro,
                             DataInicio = campeonatoSelecionado.DataInicio,
                             DataFinal = campeonatoSelecionado.DataFinal,
                             EmAndamento = campeonatoSelecionado.EmAndamento,
                             Finalizado = campeonatoSelecionado.Finalizado,
-                            Campeao = campeonatoSelecionado.Campeao,
-                            ViceCampeao = campeonatoSelecionado.ViceCampeao
+                            Tipo = campeonatoSelecionado.Tipo,
                         };
                     }
 

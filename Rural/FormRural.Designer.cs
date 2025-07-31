@@ -31,11 +31,11 @@ namespace Rural
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormRural));
-            DevExpress.XtraEditors.TileItemElement tileItemElement6 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement7 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement8 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement9 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement10 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement1 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement2 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement3 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement4 = new DevExpress.XtraEditors.TileItemElement();
+            DevExpress.XtraEditors.TileItemElement tileItemElement5 = new DevExpress.XtraEditors.TileItemElement();
             this.panelPrincipal = new System.Windows.Forms.Panel();
             this.xtraTabControlPrincipal = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabInicio = new DevExpress.XtraTab.XtraTabPage();
@@ -177,15 +177,16 @@ namespace Rural
             this.tileItemCampeonato.AppearanceItem.Normal.Options.UseBorderColor = true;
             this.tileItemCampeonato.AppearanceItem.Normal.Options.UseFont = true;
             this.tileItemCampeonato.AppearanceItem.Normal.Options.UseForeColor = true;
-            tileItemElement6.ImageOptions.Image = global::Rural.Properties.Resources.iconTrofeu64x64;
-            tileItemElement6.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileItemElement6.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Top;
-            tileItemElement6.Text = "Campeonato";
-            tileItemElement6.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomCenter;
-            this.tileItemCampeonato.Elements.Add(tileItemElement6);
+            tileItemElement1.ImageOptions.Image = global::Rural.Properties.Resources.iconTrofeu64x64;
+            tileItemElement1.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            tileItemElement1.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Top;
+            tileItemElement1.Text = "Campeonato";
+            tileItemElement1.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomCenter;
+            this.tileItemCampeonato.Elements.Add(tileItemElement1);
             this.tileItemCampeonato.Id = 14;
             this.tileItemCampeonato.ItemSize = DevExpress.XtraEditors.TileItemSize.Medium;
             this.tileItemCampeonato.Name = "tileItemCampeonato";
+            this.tileItemCampeonato.ItemClick += new DevExpress.XtraEditors.TileItemClickEventHandler(this.tileItemCampeonato_ItemClick);
             // 
             // tileItemClube
             // 
@@ -195,12 +196,12 @@ namespace Rural
             this.tileItemClube.AppearanceItem.Normal.Options.UseBorderColor = true;
             this.tileItemClube.AppearanceItem.Normal.Options.UseFont = true;
             this.tileItemClube.AppearanceItem.Normal.Options.UseForeColor = true;
-            tileItemElement7.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileItemElement7.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Top;
-            tileItemElement7.ImageOptions.Image = global::Rural.Properties.Resources.iconEscudo64x64;
-            tileItemElement7.Text = "Clube";
-            tileItemElement7.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomCenter;
-            this.tileItemClube.Elements.Add(tileItemElement7);
+            tileItemElement2.ImageOptions.Image = global::Rural.Properties.Resources.iconEscudo64x64;
+            tileItemElement2.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            tileItemElement2.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Top;
+            tileItemElement2.Text = "Clube";
+            tileItemElement2.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomCenter;
+            this.tileItemClube.Elements.Add(tileItemElement2);
             this.tileItemClube.Id = 15;
             this.tileItemClube.ItemSize = DevExpress.XtraEditors.TileItemSize.Medium;
             this.tileItemClube.Name = "tileItemClube";
@@ -213,12 +214,12 @@ namespace Rural
             this.tileItemJogador.AppearanceItem.Normal.Options.UseBorderColor = true;
             this.tileItemJogador.AppearanceItem.Normal.Options.UseFont = true;
             this.tileItemJogador.AppearanceItem.Normal.Options.UseForeColor = true;
-            tileItemElement8.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileItemElement8.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Top;
-            tileItemElement8.ImageOptions.Image = global::Rural.Properties.Resources.iconJogador64x64;
-            tileItemElement8.Text = "Jogador";
-            tileItemElement8.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomCenter;
-            this.tileItemJogador.Elements.Add(tileItemElement8);
+            tileItemElement3.ImageOptions.Image = global::Rural.Properties.Resources.iconJogador64x64;
+            tileItemElement3.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            tileItemElement3.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Top;
+            tileItemElement3.Text = "Jogador";
+            tileItemElement3.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomCenter;
+            this.tileItemJogador.Elements.Add(tileItemElement3);
             this.tileItemJogador.Id = 16;
             this.tileItemJogador.ItemSize = DevExpress.XtraEditors.TileItemSize.Medium;
             this.tileItemJogador.Name = "tileItemJogador";
@@ -231,12 +232,12 @@ namespace Rural
             this.tileItemEstadio.AppearanceItem.Normal.Options.UseBorderColor = true;
             this.tileItemEstadio.AppearanceItem.Normal.Options.UseFont = true;
             this.tileItemEstadio.AppearanceItem.Normal.Options.UseForeColor = true;
-            tileItemElement9.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileItemElement9.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Top;
-            tileItemElement9.ImageOptions.Image = global::Rural.Properties.Resources.iconTrofeu64x64;
-            tileItemElement9.Text = "Estádio";
-            tileItemElement9.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomCenter;
-            this.tileItemEstadio.Elements.Add(tileItemElement9);
+            tileItemElement4.ImageOptions.Image = global::Rural.Properties.Resources.iconTrofeu64x64;
+            tileItemElement4.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            tileItemElement4.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Top;
+            tileItemElement4.Text = "Estádio";
+            tileItemElement4.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.BottomCenter;
+            this.tileItemEstadio.Elements.Add(tileItemElement4);
             this.tileItemEstadio.Id = 17;
             this.tileItemEstadio.ItemSize = DevExpress.XtraEditors.TileItemSize.Medium;
             this.tileItemEstadio.Name = "tileItemEstadio";
@@ -255,7 +256,7 @@ namespace Rural
             this.xtraTabPageMovimentacoes.Controls.Add(this.tileControlRelatorioMenu);
             this.xtraTabPageMovimentacoes.ImageOptions.Image = global::Rural.Properties.Resources.IconeRelatorio;
             this.xtraTabPageMovimentacoes.Name = "xtraTabPageMovimentacoes";
-            this.xtraTabPageMovimentacoes.Size = new System.Drawing.Size(984, 375);
+            this.xtraTabPageMovimentacoes.Size = new System.Drawing.Size(984, 378);
             // 
             // tileControlRelatorioMenu
             // 
@@ -286,7 +287,7 @@ namespace Rural
             this.tileControlRelatorioMenu.Orientation = System.Windows.Forms.Orientation.Vertical;
             this.tileControlRelatorioMenu.Padding = new System.Windows.Forms.Padding(8);
             this.tileControlRelatorioMenu.SelectionColor = System.Drawing.Color.Empty;
-            this.tileControlRelatorioMenu.Size = new System.Drawing.Size(984, 375);
+            this.tileControlRelatorioMenu.Size = new System.Drawing.Size(984, 378);
             this.tileControlRelatorioMenu.TabIndex = 3;
             this.tileControlRelatorioMenu.Text = "tileControl2";
             this.tileControlRelatorioMenu.VerticalContentAlignment = DevExpress.Utils.VertAlignment.Top;
@@ -304,11 +305,11 @@ namespace Rural
             this.tileItemEntrada.AppearanceItem.Normal.Options.UseBorderColor = true;
             this.tileItemEntrada.AppearanceItem.Normal.Options.UseFont = true;
             this.tileItemEntrada.AppearanceItem.Normal.Options.UseForeColor = true;
-            tileItemElement10.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            tileItemElement10.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Top;
-            tileItemElement10.Text = "";
-            tileItemElement10.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
-            this.tileItemEntrada.Elements.Add(tileItemElement10);
+            tileItemElement5.ImageOptions.ImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            tileItemElement5.ImageOptions.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Top;
+            tileItemElement5.Text = "";
+            tileItemElement5.TextAlignment = DevExpress.XtraEditors.TileItemContentAlignment.MiddleCenter;
+            this.tileItemEntrada.Elements.Add(tileItemElement5);
             this.tileItemEntrada.Id = 14;
             this.tileItemEntrada.ItemSize = DevExpress.XtraEditors.TileItemSize.Medium;
             this.tileItemEntrada.Name = "tileItemEntrada";

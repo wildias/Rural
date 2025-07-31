@@ -40,15 +40,10 @@ namespace Rural.Dominio.Data.Configurations
                 .IsUnicode(false)
                 .IsFixedLength(true);
 
-            entity.Property(e => e.IdCampeonato)
+            entity.Property(e => e.IdJogador)
                 .HasMaxLength(10)
                 .IsUnicode(false)
                 .IsFixedLength(true);
-
-            entity.Property(e => e.IdJogador)
-                .IsRequired()
-                .HasMaxLength(200)
-                .IsUnicode(false);
 
             entity.HasOne(d => d.IdCampeonatoNavigation)
                 .WithMany(p => p.InfoCampeonato)

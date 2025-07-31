@@ -19,6 +19,8 @@ namespace Rural.Dominio.Data.Configurations
 
             entity.Property(e => e.DataFinal).HasColumnType("datetime");
 
+            entity.Property(e => e.DataCadastro).HasColumnType("datetime");
+
             entity.Property(e => e.IdCampeonato)
                 .HasMaxLength(10)
                 .IsUnicode(false)

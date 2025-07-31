@@ -23,6 +23,7 @@ namespace Rural.Dominio.Models
         public bool EmAndamento { get; set; }
         public bool Finalizado { get; set; }
         public Modelo Tipo { get; set; }
+        public DateTime DataCadastro { get; set; }
 
 
         [JsonIgnore]
