@@ -1,9 +1,6 @@
-﻿using System.Drawing;
-using System.Windows.Forms;
-
-namespace Rural.Telas.Cadastro.Campeonato
+﻿namespace Rural.Telas.Cadastro.Clube
 {
-    partial class FormPesquisaCampeonato
+    partial class FormPesquisaClube
     {
         /// <summary>
         /// Required designer variable.
@@ -31,12 +28,12 @@ namespace Rural.Telas.Cadastro.Campeonato
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPesquisaCampeonato));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPesquisaClube));
             this.tableLayoutPanelPrincipal = new System.Windows.Forms.TableLayoutPanel();
             this.panelCenter = new System.Windows.Forms.Panel();
-            this.gridControlCampeonato = new DevExpress.XtraGrid.GridControl();
-            this.gridViewCampeonato = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.labelNenhumCampeonato = new System.Windows.Forms.Label();
+            this.gridControlClube = new DevExpress.XtraGrid.GridControl();
+            this.gridViewClube = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.labelNenhum = new System.Windows.Forms.Label();
             this.panelTop = new System.Windows.Forms.Panel();
             this.labelNadaEncontrado = new System.Windows.Forms.Label();
             this.BtnPesquisar = new System.Windows.Forms.Button();
@@ -44,8 +41,8 @@ namespace Rural.Telas.Cadastro.Campeonato
             this.labelPesquisar = new System.Windows.Forms.Label();
             this.tableLayoutPanelPrincipal.SuspendLayout();
             this.panelCenter.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControlCampeonato)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridViewCampeonato)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControlClube)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridViewClube)).BeginInit();
             this.panelTop.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,52 +59,51 @@ namespace Rural.Telas.Cadastro.Campeonato
             this.tableLayoutPanelPrincipal.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanelPrincipal.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 75F));
             this.tableLayoutPanelPrincipal.Size = new System.Drawing.Size(629, 390);
-            this.tableLayoutPanelPrincipal.TabIndex = 0;
+            this.tableLayoutPanelPrincipal.TabIndex = 1;
             // 
             // panelCenter
             // 
-            this.panelCenter.Controls.Add(this.gridControlCampeonato);
-            this.panelCenter.Controls.Add(this.labelNenhumCampeonato);
+            this.panelCenter.Controls.Add(this.gridControlClube);
+            this.panelCenter.Controls.Add(this.labelNenhum);
             this.panelCenter.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelCenter.Location = new System.Drawing.Point(3, 100);
             this.panelCenter.Name = "panelCenter";
             this.panelCenter.Size = new System.Drawing.Size(623, 287);
             this.panelCenter.TabIndex = 1;
             // 
-            // gridControlCampeonato
+            // gridControlClube
             // 
-            this.gridControlCampeonato.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gridControlCampeonato.Location = new System.Drawing.Point(0, 0);
-            this.gridControlCampeonato.MainView = this.gridViewCampeonato;
-            this.gridControlCampeonato.Name = "gridControlCampeonato";
-            this.gridControlCampeonato.Size = new System.Drawing.Size(623, 287);
-            this.gridControlCampeonato.TabIndex = 3;
-            this.gridControlCampeonato.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridViewCampeonato});
+            this.gridControlClube.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gridControlClube.Location = new System.Drawing.Point(0, 0);
+            this.gridControlClube.MainView = this.gridViewClube;
+            this.gridControlClube.Name = "gridControlClube";
+            this.gridControlClube.Size = new System.Drawing.Size(623, 287);
+            this.gridControlClube.TabIndex = 3;
+            this.gridControlClube.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridViewClube});
             // 
-            // gridViewCampeonato
+            // gridViewClube
             // 
-            this.gridViewCampeonato.Appearance.Row.Font = new System.Drawing.Font("Tahoma", 12F);
-            this.gridViewCampeonato.Appearance.Row.Options.UseFont = true;
-            this.gridViewCampeonato.GridControl = this.gridControlCampeonato;
-            this.gridViewCampeonato.Name = "gridViewCampeonato";
-            this.gridViewCampeonato.OptionsMenu.EnableGroupPanelMenu = false;
-            this.gridViewCampeonato.OptionsView.ShowGroupPanel = false;
-            this.gridViewCampeonato.RowClick += new DevExpress.XtraGrid.Views.Grid.RowClickEventHandler(this.gridViewCampeonato_RowClick);
-            this.gridViewCampeonato.RowCellStyle += new DevExpress.XtraGrid.Views.Grid.RowCellStyleEventHandler(this.gridViewCampeonato_RowCellStyle);
+            this.gridViewClube.Appearance.Row.Font = new System.Drawing.Font("Tahoma", 12F);
+            this.gridViewClube.Appearance.Row.Options.UseFont = true;
+            this.gridViewClube.GridControl = this.gridControlClube;
+            this.gridViewClube.Name = "gridViewClube";
+            this.gridViewClube.OptionsMenu.EnableGroupPanelMenu = false;
+            this.gridViewClube.OptionsView.ShowGroupPanel = false;
+            this.gridViewClube.RowClick += new DevExpress.XtraGrid.Views.Grid.RowClickEventHandler(this.gridViewClube_RowClick);
             // 
-            // labelNenhumCampeonato
+            // labelNenhum
             // 
-            this.labelNenhumCampeonato.BackColor = System.Drawing.SystemColors.Control;
-            this.labelNenhumCampeonato.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.labelNenhumCampeonato.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
-            this.labelNenhumCampeonato.ForeColor = System.Drawing.Color.Gray;
-            this.labelNenhumCampeonato.Location = new System.Drawing.Point(0, 0);
-            this.labelNenhumCampeonato.Name = "labelNenhumCampeonato";
-            this.labelNenhumCampeonato.Size = new System.Drawing.Size(623, 287);
-            this.labelNenhumCampeonato.TabIndex = 8;
-            this.labelNenhumCampeonato.Text = "Não há informações";
-            this.labelNenhumCampeonato.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelNenhum.BackColor = System.Drawing.SystemColors.Control;
+            this.labelNenhum.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.labelNenhum.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F);
+            this.labelNenhum.ForeColor = System.Drawing.Color.Gray;
+            this.labelNenhum.Location = new System.Drawing.Point(0, 0);
+            this.labelNenhum.Name = "labelNenhum";
+            this.labelNenhum.Size = new System.Drawing.Size(623, 287);
+            this.labelNenhum.TabIndex = 8;
+            this.labelNenhum.Text = "Não há informações";
+            this.labelNenhum.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panelTop
             // 
@@ -173,25 +169,23 @@ namespace Rural.Telas.Cadastro.Campeonato
             this.labelPesquisar.TabIndex = 0;
             this.labelPesquisar.Text = "Pesquisar";
             // 
-            // FormPesquisaCampeonato
+            // FormPesquisaClube
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(629, 390);
             this.Controls.Add(this.tableLayoutPanelPrincipal);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.KeyPreview = true;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "FormPesquisaCampeonato";
+            this.Name = "FormPesquisaClube";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Pesquisar Campeonato";
-            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FormPesquisaCampeonato_KeyDown);
+            this.Text = "Pesquisar Clube";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FormPesquisaClube_KeyDown);
             this.tableLayoutPanelPrincipal.ResumeLayout(false);
             this.panelCenter.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.gridControlCampeonato)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridViewCampeonato)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControlClube)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridViewClube)).EndInit();
             this.panelTop.ResumeLayout(false);
             this.panelTop.PerformLayout();
             this.ResumeLayout(false);
@@ -200,15 +194,15 @@ namespace Rural.Telas.Cadastro.Campeonato
 
         #endregion
 
-        private TableLayoutPanel tableLayoutPanelPrincipal;
-        private Panel panelCenter;
-        private Panel panelTop;
-        private TextBox TxtBoxDescricao;
-        private Label labelPesquisar;
-        private Button BtnPesquisar;
-        private Label labelNadaEncontrado;
-        private DevExpress.XtraGrid.GridControl gridControlCampeonato;
-        private DevExpress.XtraGrid.Views.Grid.GridView gridViewCampeonato;
-        private Label labelNenhumCampeonato;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanelPrincipal;
+        private System.Windows.Forms.Panel panelCenter;
+        private DevExpress.XtraGrid.GridControl gridControlClube;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridViewClube;
+        private System.Windows.Forms.Label labelNenhum;
+        private System.Windows.Forms.Panel panelTop;
+        private System.Windows.Forms.Label labelNadaEncontrado;
+        private System.Windows.Forms.Button BtnPesquisar;
+        private System.Windows.Forms.TextBox TxtBoxDescricao;
+        private System.Windows.Forms.Label labelPesquisar;
     }
 }

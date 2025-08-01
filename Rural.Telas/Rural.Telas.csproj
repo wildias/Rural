@@ -106,12 +106,27 @@
     <Compile Include="Cadastro\Campeonato\FormPesquisaCampeonato.Designer.cs">
       <DependentUpon>FormPesquisaCampeonato.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cadastro\Clube\FormCadClube.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastro\Clube\FormCadClube.Designer.cs">
+      <DependentUpon>FormCadClube.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastro\Clube\FormPesquisaClube.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastro\Clube\FormPesquisaClube.Designer.cs">
+      <DependentUpon>FormPesquisaClube.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Cadastro\Campeonato\FormCadCampeonato.resx">
       <DependentUpon>FormCadCampeonato.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Cadastro\Campeonato\FormPesquisaCampeonato.resx">
       <DependentUpon>FormPesquisaCampeonato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastro\Clube\FormPesquisaClube.resx">
+      <DependentUpon>FormPesquisaClube.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -156,7 +171,6 @@
     <None Include="Resources\iconTrofeu64x64Branco.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Cadastro\Clube\" />
     <Folder Include="Cadastro\Estadio\" />
     <Folder Include="Cadastro\Jogador\" />
   </ItemGroup>

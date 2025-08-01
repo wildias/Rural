@@ -15,7 +15,7 @@ namespace Rural.Telas.Cadastro.Campeonato
 {
     public partial class FormPesquisaCampeonato : Form
     {
-        public List<Rural.Model.Campeonato.Campeonato> _campeonatos {  get; set; }
+        public List<Model.Campeonato.Campeonato> _campeonatos {  get; set; }
         public Model.Campeonato.Campeonato _campeonatoSelecionado { get; set; }
         bool PodeSelecionar = true;
 
@@ -24,7 +24,7 @@ namespace Rural.Telas.Cadastro.Campeonato
         {
             InitializeComponent();
 
-            _campeonatos = new List<Rural.Model.Campeonato.Campeonato>();
+            _campeonatos = new List<Model.Campeonato.Campeonato>();
 
             CarregarDados();
 
@@ -35,7 +35,7 @@ namespace Rural.Telas.Cadastro.Campeonato
         {
             try
             {
-                var camps = new Rural.Model.Campeonato.Campeonato().GetLista();
+                var camps = new Model.Campeonato.Campeonato().GetLista();
 
                 if (camps.Count() < 1) return;
 
@@ -54,7 +54,7 @@ namespace Rural.Telas.Cadastro.Campeonato
             {
                 gridControlCampeonato.Visible = false;
                 _campeonatos = _campeonatos.OrderByDescending(p => p.DataInicio).ToList();
-                gridControlCampeonato.DataSource = gridControlCampeonato;
+                gridControlCampeonato.DataSource = _campeonatos;
 
                 if (_campeonatos.Count() > 0)
                 {

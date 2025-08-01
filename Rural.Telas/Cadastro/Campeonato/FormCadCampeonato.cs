@@ -91,6 +91,8 @@ namespace Rural.Telas.Cadastro.Campeonato
                     if (form._campeonatoSelecionado == null) return;
 
                     ParseClasseForm(form._campeonatoSelecionado);
+
+                    _campeonato = form._campeonatoSelecionado;
                 }
             }
             catch (Exception e)
@@ -179,9 +181,11 @@ namespace Rural.Telas.Cadastro.Campeonato
         {
             try
             {
+                _campeonato = null;
                 textBoxDescricao.Clear();
                 dateEditInicio.EditValue = null;
                 dateEditFinal.EditValue = null;
+                dateEditCadastro.EditValue = null;
                 comboBoxModelo.SelectedIndex = 0;
             }
             catch (Exception e)

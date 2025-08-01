@@ -326,9 +326,11 @@ namespace Rural
             // 
             // pictureBoxLogo
             // 
+            this.pictureBoxLogo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.pictureBoxLogo.BackgroundImage = global::Rural.Properties.Resources.logoFutManagerBranca;
             this.pictureBoxLogo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBoxLogo.Location = new System.Drawing.Point(843, 0);
+            this.pictureBoxLogo.Location = new System.Drawing.Point(2, 1);
             this.pictureBoxLogo.Name = "pictureBoxLogo";
             this.pictureBoxLogo.Size = new System.Drawing.Size(138, 113);
             this.pictureBoxLogo.TabIndex = 0;

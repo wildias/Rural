@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Wilgner\\Documents\\Rural\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ABEF0422-8848-404B-9CD4-376454E23677}|Rural.Dominio\\Rural.Dominio.csproj|c:\\users\\wilgner\\documents\\rural\\rural.dominio\\data\\configurations\\sumulaconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABEF0422-8848-404B-9CD4-376454E23677}|Rural.Dominio\\Rural.Dominio.csproj|solutionrelative:rural.dominio\\data\\configurations\\sumulaconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F558A3B0-604B-4CD2-B8B4-448B9066D82B}|Rural.Telas\\Rural.Telas.csproj|c:\\users\\wilgner\\documents\\rural\\rural.telas\\cadastro\\clube\\formpesquisaclube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F558A3B0-604B-4CD2-B8B4-448B9066D82B}|Rural.Telas\\Rural.Telas.csproj|solutionrelative:rural.telas\\cadastro\\clube\\formpesquisaclube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABEF0422-8848-404B-9CD4-376454E23677}|Rural.Dominio\\Rural.Dominio.csproj|c:\\users\\wilgner\\documents\\rural\\rural.dominio\\data\\configurations\\infocampeonatoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABEF0422-8848-404B-9CD4-376454E23677}|Rural.Dominio\\Rural.Dominio.csproj|solutionrelative:rural.dominio\\data\\configurations\\infocampeonatoconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F558A3B0-604B-4CD2-B8B4-448B9066D82B}|Rural.Telas\\Rural.Telas.csproj|c:\\users\\wilgner\\documents\\rural\\rural.telas\\cadastro\\campeonato\\formpesquisacampeonato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F558A3B0-604B-4CD2-B8B4-448B9066D82B}|Rural.Telas\\Rural.Telas.csproj|solutionrelative:rural.telas\\cadastro\\campeonato\\formpesquisacampeonato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABEF0422-8848-404B-9CD4-376454E23677}|Rural.Dominio\\Rural.Dominio.csproj|c:\\users\\wilgner\\documents\\rural\\rural.dominio\\data\\configurations\\jogadorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABEF0422-8848-404B-9CD4-376454E23677}|Rural.Dominio\\Rural.Dominio.csproj|solutionrelative:rural.dominio\\data\\configurations\\jogadorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F558A3B0-604B-4CD2-B8B4-448B9066D82B}|Rural.Telas\\Rural.Telas.csproj|c:\\users\\wilgner\\documents\\rural\\rural.telas\\cadastro\\clube\\formpesquisaclube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F558A3B0-604B-4CD2-B8B4-448B9066D82B}|Rural.Telas\\Rural.Telas.csproj|solutionrelative:rural.telas\\cadastro\\clube\\formpesquisaclube.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABEF0422-8848-404B-9CD4-376454E23677}|Rural.Dominio\\Rural.Dominio.csproj|c:\\users\\wilgner\\documents\\rural\\rural.dominio\\models\\jogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABEF0422-8848-404B-9CD4-376454E23677}|Rural.Dominio\\Rural.Dominio.csproj|solutionrelative:rural.dominio\\models\\jogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABEF0422-8848-404B-9CD4-376454E23677}|Rural.Dominio\\Rural.Dominio.csproj|c:\\users\\wilgner\\documents\\rural\\rural.dominio\\models\\infocampeonato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABEF0422-8848-404B-9CD4-376454E23677}|Rural.Dominio\\Rural.Dominio.csproj|solutionrelative:rural.dominio\\models\\infocampeonato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABEF0422-8848-404B-9CD4-376454E23677}|Rural.Dominio\\Rural.Dominio.csproj|c:\\users\\wilgner\\documents\\rural\\rural.dominio\\data\\ruralcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ABEF0422-8848-404B-9CD4-376454E23677}|Rural.Dominio\\Rural.Dominio.csproj|solutionrelative:rural.dominio\\data\\ruralcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F558A3B0-604B-4CD2-B8B4-448B9066D82B}|Rural.Telas\\Rural.Telas.csproj|c:\\users\\wilgner\\documents\\rural\\rural.telas\\cadastro\\campeonato\\formpesquisacampeonato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F558A3B0-604B-4CD2-B8B4-448B9066D82B}|Rural.Telas\\Rural.Telas.csproj|solutionrelative:rural.telas\\cadastro\\campeonato\\formpesquisacampeonato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SumulaConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Wilgner\\Documents\\Rural\\Rural.Dominio\\Data\\Configurations\\SumulaConfiguration.cs",
-              "RelativeDocumentMoniker": "Rural.Dominio\\Data\\Configurations\\SumulaConfiguration.cs",
-              "ToolTip": "C:\\Users\\Wilgner\\Documents\\Rural\\Rural.Dominio\\Data\\Configurations\\SumulaConfiguration.cs",
-              "RelativeToolTip": "Rural.Dominio\\Data\\Configurations\\SumulaConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "FormPesquisaCampeonato.cs",
+              "DocumentMoniker": "C:\\Users\\Wilgner\\Documents\\Rural\\Rural.Telas\\Cadastro\\Campeonato\\FormPesquisaCampeonato.cs",
+              "RelativeDocumentMoniker": "Rural.Telas\\Cadastro\\Campeonato\\FormPesquisaCampeonato.cs",
+              "ToolTip": "C:\\Users\\Wilgner\\Documents\\Rural\\Rural.Telas\\Cadastro\\Campeonato\\FormPesquisaCampeonato.cs",
+              "RelativeToolTip": "Rural.Telas\\Cadastro\\Campeonato\\FormPesquisaCampeonato.cs",
+              "ViewState": "AgIAALQAAAAAAAAAAAAkwNIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T20:10:52.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "JogadorConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Wilgner\\Documents\\Rural\\Rural.Dominio\\Data\\Configurations\\JogadorConfiguration.cs",
-              "RelativeDocumentMoniker": "Rural.Dominio\\Data\\Configurations\\JogadorConfiguration.cs",
-              "ToolTip": "C:\\Users\\Wilgner\\Documents\\Rural\\Rural.Dominio\\Data\\Configurations\\JogadorConfiguration.cs",
-              "RelativeToolTip": "Rural.Dominio\\Data\\Configurations\\JogadorConfiguration.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T20:00:03.774Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "InfoCampeonato.cs",
-              "DocumentMoniker": "C:\\Users\\Wilgner\\Documents\\Rural\\Rural.Dominio\\Models\\InfoCampeonato.cs",
-              "RelativeDocumentMoniker": "Rural.Dominio\\Models\\InfoCampeonato.cs",
-              "ToolTip": "C:\\Users\\Wilgner\\Documents\\Rural\\Rural.Dominio\\Models\\InfoCampeonato.cs",
-              "RelativeToolTip": "Rural.Dominio\\Models\\InfoCampeonato.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T19:58:17.243Z",
+              "WhenOpened": "2025-08-01T14:18:00.948Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Jogador.cs",
-              "DocumentMoniker": "C:\\Users\\Wilgner\\Documents\\Rural\\Rural.Dominio\\Models\\Jogador.cs",
-              "RelativeDocumentMoniker": "Rural.Dominio\\Models\\Jogador.cs",
-              "ToolTip": "C:\\Users\\Wilgner\\Documents\\Rural\\Rural.Dominio\\Models\\Jogador.cs",
-              "RelativeToolTip": "Rural.Dominio\\Models\\Jogador.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
+              "Title": "FormPesquisaCampeonato.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Wilgner\\Documents\\Rural\\Rural.Telas\\Cadastro\\Campeonato\\FormPesquisaCampeonato.cs",
+              "RelativeDocumentMoniker": "Rural.Telas\\Cadastro\\Campeonato\\FormPesquisaCampeonato.cs",
+              "ToolTip": "C:\\Users\\Wilgner\\Documents\\Rural\\Rural.Telas\\Cadastro\\Campeonato\\FormPesquisaCampeonato.cs [Design]",
+              "RelativeToolTip": "Rural.Telas\\Cadastro\\Campeonato\\FormPesquisaCampeonato.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T19:59:16.805Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T14:15:32.613Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "InfoCampeonatoConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Wilgner\\Documents\\Rural\\Rural.Dominio\\Data\\Configurations\\InfoCampeonatoConfiguration.cs",
-              "RelativeDocumentMoniker": "Rural.Dominio\\Data\\Configurations\\InfoCampeonatoConfiguration.cs",
-              "ToolTip": "C:\\Users\\Wilgner\\Documents\\Rural\\Rural.Dominio\\Data\\Configurations\\InfoCampeonatoConfiguration.cs",
-              "RelativeToolTip": "Rural.Dominio\\Data\\Configurations\\InfoCampeonatoConfiguration.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAgwDcAAAA+AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "FormPesquisaClube.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Wilgner\\Documents\\Rural\\Rural.Telas\\Cadastro\\Clube\\FormPesquisaClube.cs",
+              "RelativeDocumentMoniker": "Rural.Telas\\Cadastro\\Clube\\FormPesquisaClube.cs",
+              "ToolTip": "C:\\Users\\Wilgner\\Documents\\Rural\\Rural.Telas\\Cadastro\\Clube\\FormPesquisaClube.cs [Design]",
+              "RelativeToolTip": "Rural.Telas\\Cadastro\\Clube\\FormPesquisaClube.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T19:57:50.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-01T14:13:07.935Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RuralContext.cs",
-              "DocumentMoniker": "C:\\Users\\Wilgner\\Documents\\Rural\\Rural.Dominio\\Data\\RuralContext.cs",
-              "RelativeDocumentMoniker": "Rural.Dominio\\Data\\RuralContext.cs",
-              "ToolTip": "C:\\Users\\Wilgner\\Documents\\Rural\\Rural.Dominio\\Data\\RuralContext.cs",
-              "RelativeToolTip": "Rural.Dominio\\Data\\RuralContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAABvAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "FormPesquisaClube.cs",
+              "DocumentMoniker": "C:\\Users\\Wilgner\\Documents\\Rural\\Rural.Telas\\Cadastro\\Clube\\FormPesquisaClube.cs",
+              "RelativeDocumentMoniker": "Rural.Telas\\Cadastro\\Clube\\FormPesquisaClube.cs",
+              "ToolTip": "C:\\Users\\Wilgner\\Documents\\Rural\\Rural.Telas\\Cadastro\\Clube\\FormPesquisaClube.cs",
+              "RelativeToolTip": "Rural.Telas\\Cadastro\\Clube\\FormPesquisaClube.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAADQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T19:52:27.6Z",
+              "WhenOpened": "2025-08-01T14:18:26.235Z",
               "EditorCaption": ""
             }
           ]

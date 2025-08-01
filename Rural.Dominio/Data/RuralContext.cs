@@ -34,14 +34,14 @@ namespace Rural.Dominio.Data
 
         public RuralContext(string stringConexao)
         {
-            if (!string.IsNullOrEmpty(stringConexao)) _stringConexao = stringConexao;
+            if (string.IsNullOrEmpty(stringConexao)) _stringConexao = stringConexao;
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
             {
-                if (string.IsNullOrEmpty(_stringConexao)) _stringConexao = "Data Source=.\\SQLEXPRESS;Initial Catalog=RURAL;Integrated Security=True;Trust Server Certificate=True;Command Timeout=300";
+                if (string.IsNullOrEmpty(_stringConexao)) _stringConexao = "Data Source=.\\SQLFARMA;Initial Catalog=RURAL;Integrated Security=True;";
                 optionsBuilder.UseSqlServer(_stringConexao);
                 //optionsBuilder.UseMySql(_stringConexao);
             }

@@ -71,5 +71,21 @@ namespace Rural.Model.Clube
                 throw erro;
             }
         }
+
+        public List<Clube> GetLista()
+        {
+            try
+            {
+                var sql = "SELECT * FROM Clube";
+
+                var resp = Conexao.Conexao.Query<Clube>(sql).ToList();
+                return resp;
+            }
+            catch (Exception erro)
+            {
+
+                throw erro;
+            }
+        }
     }
 }

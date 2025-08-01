@@ -16,9 +16,9 @@ namespace Rural.Conexao
         public static string stringConexao;
         public static bool BancoLocal { get; set; }
 
-        public Conexao()
+        static Conexao()
         {
-
+            stringConexao = "Data Source=.\\SQLFARMA;Initial Catalog=RURAL;Integrated Security=True;";
         }
 
         public static string DataSourceCon => new RuralContext(stringConexao).Database.GetDbConnection().DataSource;
